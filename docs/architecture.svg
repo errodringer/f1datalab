@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="950" height="250" viewBox="0 0 950 250">
+ <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#ff385c"/><stop offset="1" stop-color="#24d1c3"/></linearGradient></defs>
+ <rect width="950" height="250" rx="15" fill="#0c111b"/>
+ <text x="28" y="42" font-size="22" font-weight="700" fill="#f3f6fc">F1 Multi-Cloud Data Lab</text>
+ <rect x="30" y="90" width="172" height="75" rx="12" fill="#253142" stroke="#4a5871"/>
+ <text x="116" y="119" font-size="17" text-anchor="middle" fill="white">Jolpica API</text>
+ <text x="116" y="146" font-size="12" text-anchor="middle" fill="#aab9c9">public F1 data</text>
+ <path d="M203 128 H255" fill="none" stroke="url(#g)" stroke-width="3"/>
+ <path d="M255 128 l-9 -7 v14z" fill="#ff516d"/>
+ <rect x="258" y="90" width="172" height="75" rx="12" fill="#253142" stroke="#4a5871"/>
+ <text x="344" y="118" font-size="17" text-anchor="middle" fill="white">Python worker</text>
+ <text x="344" y="145" font-size="12" text-anchor="middle" fill="#aab9c9">raw / Parquet / KPI</text>
+ <path d="M430 128 H487 V80 H512 M487 128 V178 H512" fill="none" stroke="url(#g)" stroke-width="3"/>
+ <rect x="516" y="51" width="181" height="65" rx="10" fill="#322836" stroke="#ff385c"/>
+ <text x="606" y="78" font-size="15" text-anchor="middle" fill="white">AWS S3</text>
+ <text x="606" y="96" font-size="12" text-anchor="middle" fill="#efb8c5">Moto / LocalStack</text>
+ <rect x="516" y="145" width="181" height="65" rx="10" fill="#1c383b" stroke="#24d1c3"/>
+ <text x="606" y="172" font-size="15" text-anchor="middle" fill="white">GCP GCS</text>
+ <text x="606" y="190" font-size="12" text-anchor="middle" fill="#9fece2">fake-gcs-server</text>
+ <path d="M698 80 H735 V128 H766 M698 178 H735 V128" fill="none" stroke="url(#g)" stroke-width="3"/>
+ <rect x="766" y="90" width="155" height="75" rx="12" fill="#253142" stroke="#4a5871"/>
+ <text x="844" y="118" font-size="17" text-anchor="middle" fill="white">Dashboard</text>
+ <text x="844" y="145" font-size="12" text-anchor="middle" fill="#aab9c9">Streamlit / Plotly</text>
+</svg>
